@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="eS">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <section id="cont-general">
+        <div id="panel-lateral">
+            <div class="fila">
+                <h3>MENU</h3>
+                <button onclick="active()">X</button>
+            </div>
+            <ul class="menu">
+                <li><a href="">INICIO</a></li>
+                <li><a href="">PRODUCTOS</a></li>
+                <li><a href="">SERVICIOS</a></li>
+                <li><a href="">CONTACTOS</a></li>
+            </ul>
+
+        </div>
+        <div id="panel-superior">
+            <div class="fila">
+                <h3>video  naturaleza</h3>
+                <button onclick="desactive()">X</button>
+            </div>
+            <iframe width="90%" height="85%" src="https://www.youtube.com/embed/5Mv5xoz08Mo?si=zm-ejHkBO6YuzJJg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <article class="right">
+            <h2>INTERACCIONES</h2>
+            <div class="button">
+                <button onclick="circulo()">CIRCULO</button>
+                <button onclick="rombo()">ROMBO</button>
+                <button onclick="fondoColor()">FONDO COLOR</button>
+                <button onclick="Imagen()">FONDO IMAGEN</button>
+                <button onclick="superior()">TOP</button>
+                <button onclick="derecha()">LEFT</button>
+                <button onclick="bottom()">BOTTOM</button>
+                <button onclick="izquierda()">RIGHT</button>
+                <button onclick="diagonal()">DIAGONAL</button>
+                <button onclick="animation()">ANIMATION</button>
+                <button onclick="Fondo()">FONDO DEGRADADO</button>
+                <button onclick="estrella()">ESTRELLAS</button>
+                <button onclick="active()">PANEL LATERAL</button>
+                <button onclick="desactive()">PANEL SUPERIOR</button>
+            </div>
+
+        </article>
+
+        <article class="left">
+            <h2 id="titulo">Figura</h2>
+            <div id="figura">
+
+            </div>
+        </article>
+    </section>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
